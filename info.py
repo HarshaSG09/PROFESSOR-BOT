@@ -13,7 +13,7 @@ def is_enabled(value, default):
 # PyroClient Setup 
 API_ID = int(environ['API_ID', '28766774'])
 API_HASH = environ['API_HASH', 'b8b7a890c64bca1621f3e5666dbd0894']
-BOT_TOKEN = environ['BOT_TOKEN', '6950512386:AAHQkHR2n6Q9v9rVIWkP00Ki4obxyEeTTCw']
+BOT_TOKEN = environ['BOT_TOKEN', '6950512386:AAFblpdsbGA4Gd741QSb3t4yM4nA2ag7WPY']
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
@@ -52,8 +52,8 @@ BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 RemoveBG_API = environ.get("RemoveBG_API", "")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", 'adrinolinks.in')
-SHORT_API = environ.get("SHORT_API", '90ccb8eec02b00fa42865032c17984d7ce8f81eb')
+SHORT_URL = environ.get("SHORT_URL", 'ipopkorn.io')
+SHORT_API = environ.get("SHORT_API", '620042d86f2ad3249b8dd6d4f37a48738068a45a')
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
@@ -63,7 +63,7 @@ P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), True)
 SINGLE_BUTTON = is_enabled(environ.get('SINGLE_BUTTON', "True"), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}@pop_cornix_bot")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
